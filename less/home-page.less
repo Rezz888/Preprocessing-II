@@ -1,3 +1,31 @@
+
+
+
+header {
+  .cont-width();
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.fullWidth-separator {
+  border-bottom: 2px dashed @navigation-border;
+}
+
+.banner-holder {
+
+  .cont-width();
+  border-bottom: 2px dashed @navigation-border;
+  padding-bottom: 15px;
+
+  .banner-txt {
+    margin-top: 20px;
+  } 
+  
+}
+
+
 .home {
 
   .content-section {
@@ -56,6 +84,17 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
+      
+      .btn {
+
+        
+        width: 90%;
+        border: 1px solid;
+        border-radius: 15px;
+        color: white;
+        .button ( center, #008081, 2rem, 15px );
+        
+      }
     }
   }
 }// home
